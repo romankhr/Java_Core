@@ -8,7 +8,7 @@ public class ApplicationSortArray {
 
 	public static void main(String[] args) {
 		
-		int [] array = new int[10];
+		Integer [] array = new Integer[10];
 		for( int i=0; i<array.length; i++) {
 			array[i]=getRandomValueFromRange(0, 10);
 		}
@@ -20,8 +20,8 @@ public class ApplicationSortArray {
 		
 		//** HELP!! Collections.reverseOrder() is not working!!!!((
 		
-//		Arrays.sort(array, Collections.reverseOrder());
-		
+Arrays.sort(array, Collections.reverseOrder());
+System.out.println(Arrays.toString(array));
 
 	}
 	public static int getRandomValueFromRange(int min, int max) {
