@@ -22,6 +22,7 @@ public class ApplicationPets {
 		frogSleap.action("I can sleap");
 		frogSwim.action("I can swim");
 		frogWalk.action("I can Walk");
+		
 	}
 
 }
