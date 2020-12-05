@@ -25,7 +25,6 @@ public class MyThread extends Thread {
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-
 		}
 		System.out.println("\n");
 	}
